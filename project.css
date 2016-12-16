@@ -1,0 +1,280 @@
+@charset "utf-8";
+/* CSS Document */ 
+
+/* BEGIN CSS "Clean Slate" */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* END CSS "Clean Slate" */
+
+/* HTML5 display-role reset for older browsers */
+aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+article{
+	display: block;
+	font-size: 12px;
+}
+
+body {
+	margin:0;
+	padding:0;
+	height:100%;
+}
+
+a { 
+	color: inherit; 
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: none;
+} 
+
+/* CSS rules created in CSS Demo */
+#pageContent {
+	font-size: 12px;
+	width: 100%;
+	margin: 0;
+	clear: both;
+	font-family: Arial, Helvetica, sans-serif;
+    background-size:cover;
+    min-height:100%;
+    padding-bottom: 60px;
+}
+
+/* blue text class */
+.blueText {
+	color:#009;
+}
+nav {
+	background-color: #C8C8C8;
+	width: 100%;
+	height: 70px;
+}	
+
+footer{
+	background-color: #C8C8C8;
+	width:100%;
+	height:50px;
+	position: fixed;
+	text-align: center;
+	bottom: 0;
+}
+
+.dropdown-content {
+    display: none;
+    font-size: 15px;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-radius: 10px;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    border-radius: 10px;
+}
+
+.dropdown:hover{
+	color: white;
+	font-size: 30px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+#home{
+    float: left;
+    font-size: 25px;
+    font-family: 'CaladeaRegular'; 
+    font-weight: bold; 
+    font-style: normal; 
+    padding-top: 20px;
+    margin-left: 50px;
+    padding-right: 50px;
+}
+
+#home:hover{
+	color: white;
+	font-size: 30px;
+}
+
+#about{
+    float: left;
+    font-size: 25px; 
+    font-family: 'CaladeaRegular';
+    padding-top: 20px;
+    padding-right: 50px 
+}
+
+#about:hover{
+	color: white;
+	font-size: 30px;
+}
+
+.dropdown{
+    float: left;
+    font-size: 25px;
+    font-family: 'CaladeaRegular'; 
+    padding-top: 20px;
+    padding-right: 50px
+}
+
+.each-content:hover{
+	background-color: #808080;
+	color: white;
+}
+
+#mainContent {
+	margin-left: 50px;
+	margin-right: 50px;
+}
+#rightSidebar {
+	float:right;
+	width:120px;
+	height:350px;
+	margin-top:20px;
+	margin-left:10px;
+	margin-right: 50px;
+	margin-bottom:10px;
+	padding:5px;
+	border-width:thin;
+	border-style:solid;
+	border-color:#C8C8C8;
+	border-top: 20px solid #C8C8C8; 
+	border-radius: 10px;
+}
+.floatLeft {
+	float:left;
+	margin-left: 5px;
+	margin-right:10px;
+	margin-top: 5px;
+	margin-bottom:10px;	
+}
+.para1:first-of-type:first-letter { 
+    font-size: 200%;
+    color: #8A2BE2;
+}
+
+.floatRight {
+	margin: 20px;
+	float: right;
+	border:medium;
+	border-style:solid;
+	border-color:black;	
+}
+
+iframe{
+    border-width: 0px;
+    width: 200px;
+    height: 150px;
+}
+.para1 {
+	text-align: justify;
+	font-weight: bold;
+}
+
+p{
+	margin: 0px;
+	padding: 5px;
+	font-size: 12px;
+	text-align: justify;
+	line-height: 150%;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.bold{
+	font-weight: bold;
+}
+
+h1{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	margin: 0px;
+	padding: 5px;
+	border: 0;
+	vertical-align: baseline;
+}
+
+h2{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	font-weight: bold;
+	margin-top: 5px;
+	padding: 5px;
+	border: 0;
+	vertical-align: baseline;
+}
+
+h3{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	margin: 0px;
+	padding: 5px;
+	border: 0;
+	vertical-align: baseline;
+}
+
+h5{
+	font-family: Arial, Helvetica, sans-serif;
+	margin-top: 15px;
+	font-size: 10px;
+	font-weight: bold;
+	padding: 5px;
+	border: 0;
+	vertical-align: baseline;
+}
+
+ol, ul {
+	font-family: Arial, Helvetica, sans-serif;
+	list-style-type: square;
+	margin-left: 20px;
+	line-height: 130%;
+}
+
+
